@@ -1,0 +1,99 @@
+/* General Container */
+.city-table-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Filters */
+.header-container {
+    display: flex;
+    gap: 1rem;
+    margin: 0 1.5rem 1rem 1.5rem;
+    justify-content: space-between;
+  }
+
+.search-input,
+.dropdown {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+
+
+.add-button {
+    background-color: #163BAC;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.add-button span{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* .add-button:hover {
+    background-color: #45a049;
+  } */
+
+/* Table Styling */
+.city-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.city-table th,
+.city-table td {
+    padding: 10px;
+    text-align: left;
+}
+
+.city-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+/* .city-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+} */
+
+.city-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Actions Column */
+.city-table th:last-child,
+.city-table td:last-child {
+    width: 100px;
+    text-align: center;
+}
+
+/* Buttons inside Actions */
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.edit-button,
+.delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+

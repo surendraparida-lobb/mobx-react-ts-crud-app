@@ -1,0 +1,107 @@
+/* Modal Container */
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.modal-subtitle {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.modal-input,
+.modal-select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+    background-color: white;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.modal-input::placeholder {
+    color: #000;
+    opacity: 0.7;
+}
+
+.modal-input:disabled {
+    background-color: #e0e0e0;
+    color: #a1a1a1;
+    cursor: not-allowed;
+}
+
+/* Modal Actions */
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.cancel-button {
+    background: none;
+    border: none;
+    color: #163bac;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-button {
+    background-color: #163bac;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.add-button:hover {
+    background-color: #4a61d1;
+}
+
+.add-button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+  }
